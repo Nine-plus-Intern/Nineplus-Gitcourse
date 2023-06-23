@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="p1">
+        <p>Amount</p>
+        <label>
+            <input type="number" id="dauVao">
+        </label>
+    </div>
+
+    <div class="p2">
+        <p>From Currency</p>
+        <label>
+            <select name="from" id="select1">
+                <option value="vnd">VND</option>
+                <option value="usd">USD</option>
+            </select>
+        </label>
+    </div>
+
+    <div class="p3">
+        <p>To Currency</p>
+        <label>
+            <select name="to" id="select2">
+                <option value="vnd">VND</option>
+                <option value="usd">USD</option>
+            </select>
+        </label>
+    </div>
+
+    <div class="p4">
+        <button onclick="convert()">Convert</button>
+    </div>
+</div>
+<div class="hi">
+<div>Result: </div>
+<div id="result"> </div>
+</div>
+</body>
+<script src="Task5.js"></script>
+</html>

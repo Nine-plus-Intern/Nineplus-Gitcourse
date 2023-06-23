@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-weight: bold;
+}
+.p1, .p2, .p3{
+    padding: 20px;
+}
+.p4{
+    padding-top: 70px;
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+}
